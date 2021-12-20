@@ -1,9 +1,11 @@
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
 
 function App() {
   return (
     <div className="App">
       <h1>Learn React</h1>
+      <Button variant="primary">Sample</Button>
     </div>
   );
 }
