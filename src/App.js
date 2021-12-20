@@ -1,10 +1,10 @@
-import Button from 'react-bootstrap/Button';
+import Sample from './Sample';
 
 function App() {
   return (
     <div className="App">
       <h1>Learn React</h1>
-      <Button variant="primary">Sample</Button>
+      <Sample />
     </div>
   );
 }
